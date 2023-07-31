@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body{
+font-family:'Poppins',sans-serif;
+background: #c0b9b9;
+text-align:center;
+}
+h1 {
+      color: #007BFF;
+      margin-top: 100px;
+    }

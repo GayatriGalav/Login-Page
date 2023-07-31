@@ -41,8 +41,8 @@ public class LoginServlet extends HttpServlet {
 					rd.forward(request, response);
 				}
 				else {
-					out.println("<font= Poppins font color=red size=18> LOGIN FAILED <br><br>");
-					out.println("<a href=Login.jsp> TRY AGAIN</a>");
+					RequestDispatcher rf=request.getRequestDispatcher("tryagain.jsp");
+					rf.forward(request, response);
 
 				}
 

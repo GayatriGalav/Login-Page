@@ -4,12 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Login Successful</title>
-<link rel="stylesheet" href="welcomestyle.css">
+<title>LOGIN FAILED</title>
+<link rel="stylesheet" href="tryagainstyle.css">
+
 </head>
 <body>
-<h1>
-LOGIN SUCCESSFUL !
-</h1>
+<h1>LOGIN FAILED<br><br></h1>
+<a href="Login.jsp">TRY AGAIN</a>
+
 </body>
 </html>
